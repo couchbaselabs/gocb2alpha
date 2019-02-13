@@ -6,6 +6,8 @@ import (
 
 const (
 	goCbVersionStr = "v2.0.0-dev"
+
+	persistenceTimeoutFloor = 1500
 )
 
 // IndexType provides information on the type of indexer used for an index.
@@ -92,17 +94,17 @@ const (
 )
 
 // DurabilityLevel specifies the level of synchronous replication to use.
-type DurabilityLevel string
+type DurabilityLevel uint8
 
 const (
 	// DurabilityLevelMajority specifies that a mutation must be replicated (held in memory) to a majority of nodes.
-	DurabilityLevelMajority = DurabilityLevel("majority")
+	DurabilityLevelMajority = DurabilityLevel(1)
 
 	// DurabilityLevelMajorityAndPersistActive specifies that a mutation must be replicated (held in memory) to a
 	// majority of nodes and also persisted (written to disk) on the active node.
-	DurabilityLevelMajorityAndPersistActive = DurabilityLevel("majorityAndPersistActive")
+	DurabilityLevelMajorityAndPersistActive = DurabilityLevel(2)
 
 	// DurabilityLevelPersistToMajority specifies that a mutation must be persisted (written to disk) to a majority
 	// of nodes.
-	DurabilityLevelPersistToMajority = DurabilityLevel("persistToMajority")
+	DurabilityLevelPersistToMajority = DurabilityLevel(3)
 )
