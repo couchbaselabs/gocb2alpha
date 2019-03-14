@@ -13,7 +13,7 @@ protocol.
 
 To install the latest developer version, run:
 ```bash
-go get github.com/couchbase/gocb2alpha
+go get github.com/couchbaselabs/gocb2alpha
 ```
 
 
