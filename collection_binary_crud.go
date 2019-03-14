@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/couchbaselabs/gocbcore8alpha"
 	"github.com/opentracing/opentracing-go"
-	"gopkg.in/couchbase/gocbcore.v8"
 )
 
 // CollectionBinary is a set of binary operations.

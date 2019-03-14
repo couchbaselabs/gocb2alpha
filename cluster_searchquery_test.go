@@ -6,7 +6,7 @@ import (
 
 	"github.com/couchbase/gocb/cbft"
 
-	"gopkg.in/couchbase/gocbcore.v8"
+	"github.com/couchbaselabs/gocbcore8alpha"
 )
 
 func TestSearchQueryServiceNotFound(t *testing.T) {

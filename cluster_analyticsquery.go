@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/couchbaselabs/gocbcore8alpha"
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
-	"gopkg.in/couchbase/gocbcore.v8"
 )
 
 // AnalyticsWarning represents any warning generating during the execution of an Analytics query.

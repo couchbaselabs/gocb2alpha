@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/couchbase/gocbcore.v8"
+	"github.com/couchbaselabs/gocbcore8alpha"
 )
 
 func TestMutationState_Add(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"gopkg.in/couchbase/gocbcore.v8"
+	"github.com/couchbaselabs/gocbcore8alpha"
 )
 
 type client interface {

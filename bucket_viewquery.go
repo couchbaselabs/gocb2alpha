@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 
+	gocbcore "github.com/couchbaselabs/gocbcore8alpha"
 	"github.com/opentracing/opentracing-go"
-	gocbcore "gopkg.in/couchbase/gocbcore.v8"
 )
 
 type viewResponse struct {

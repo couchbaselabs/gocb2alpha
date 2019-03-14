@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	gocbcore "gopkg.in/couchbase/gocbcore.v8"
+	gocbcore "github.com/couchbaselabs/gocbcore8alpha"
 )
 
 func TestDefaultEncode(t *testing.T) {

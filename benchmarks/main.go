@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/couchbase/gocb"
+	"github.com/couchbaselabs/gocb2alpha"
 )
 
 type worker interface {

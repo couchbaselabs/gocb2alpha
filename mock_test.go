@@ -7,7 +7,7 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	"gopkg.in/couchbase/gocbcore.v8"
+	"github.com/couchbaselabs/gocbcore8alpha"
 )
 
 type mockClient struct {

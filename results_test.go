@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"gopkg.in/couchbase/gocbcore.v8"
+	"github.com/couchbaselabs/gocbcore8alpha"
 )
 
 func TestGetResultCas(t *testing.T) {
